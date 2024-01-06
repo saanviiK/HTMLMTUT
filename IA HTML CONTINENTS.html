@@ -1,26 +1,51 @@
-<DOCTYPE html>
+<!DOCTYPE html>
     <style>
         h1 {text-align: center;}
         p1 {font-family: serif;}
-        body {background-color: #FFBF00;}
+        body {background-color: #F8C471}
+        #rcorners2 {
+  border-radius: 25px;
+  border: 1px solid black;
+  padding: 20px; 
+  width: 800px;
+  height: 200px;  
+}
+#rcorners4 {
+  border-radius: 25px;
+  border: 1px solid black;
+  padding: 20px; 
+  width: 800px;
+  height: 200px;  
+}
+#rcorners3 {
+  border-radius: 25px;
+  border: 1px solid black;
+  padding: 20px; 
+  width: 1200px;
+  height: 200px;  
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+p{font-size: 120%;}
     </style>
 
     <title> Continents!! </title>
     <h1 style = "color: #8E44AD"> ALL ABOUT CONTINENTS </h1><br>
     <h2> Firstly, What Are Continents? </h2>
-<p style = "color: #21618C"><b> Continents are expansive landmasses comprising diverse terrains and ecosystems,
-     separated by natural boundaries such as oceans. These extensive masses of land are 
-     vital components of Earth's geography, shaping global climates and influencing 
-     ecological systems. Continents are characterized by their unique geological features
-      and have been instrumental in shaping the planet's history. They serve as habitats for 
-      various forms of life, including diverse flora and fauna. Continents play a crucial role in 
-      influencing weather patterns, ocean currents, and the distribution of resources. Their
-       distinct characteristics make them key contributors to the planet's overall biodiversity
+<p id = rcorners2 , style = "color: #21618C"><b> Continents are expansive landmasses comprising diverse terrains and ecosystems, separated by natural boundaries such as oceans. These extensive masses of land are <br>
+     vital components of Earth's geography, shaping global climates and influencing ecological systems. Continents are characterized by their unique geological features <br>
+      and have been instrumental in shaping the planet's history. They serve as habitats for various forms of life, including diverse flora and fauna. Continents play a crucial role in <br>
+      influencing weather patterns, ocean currents, and the distribution of resources. Their distinct characteristics make them key contributors to the planet's overall biodiversity <br>
      and environmental dynamics.</p><br>
 
+     <img src = "continents img.jpg" alt = "picture of continents", style = "width : 40%; height : 40%", id = "rcorners4"><img src = "contold.jpg" alt = "pic of map", style = "width: 40%; height:40%", id = "rcorners4"> <br>
      
-     <h2> 7 continents: </h2>
-     <p2 style = "color: #145A32"> In Total, There Are 7 Continents, As Shown in the list, set from 
+     <br> <h1 style = "color: #17A589", style = "font-family: 'Courier New', Courier, monospace;"> ⋆ About 7 continents: </h1>
+     <p id = "rcorners3", style = "color: #145A32"> In Total, There Are 7 Continents, As Shown in the list, set from 
     Largest to Smallest (by land mass): <br>
     <br>
         - ASIA :  Contains the world's most populous countries and diverse cultural heritage. <br>
@@ -30,7 +55,7 @@
         - ANTARCTICA :  Recognized for its vast ice sheets, extreme cold, and unique polar ecosystems. <br>
         - EUROPE :  Famous for its rich history, architectural landmarks, and cultural heritage. <br>
         - AUSTRAILIA / OCEANIA. : Renowned for the Great Barrier Reef, unique wildlife, and vast Outback landscapes. <br>
-     </p2>
+     </p>
     
      <h2> MORE ABOUT ALL 7 CONTINENTS, IN DETAIL :</h2> 
 
@@ -39,7 +64,7 @@
         <label for="continents">Choose a Continent:</label>
         <select id="redirectDropdown" onchange="redirect()">
           <option value="ASIA.html">Asia</option>
-          <option value="AUSTRAILIA.html">Austrailia</option>
+          <option value="AUSTRALIA.html">Australia</option>
           <option value="EUROPE.html">Europe</option>
           <option value="AFRICA.html">Africa</option>
           <option value="ANTARCTICA.html">Antarctica</option>
@@ -56,5 +81,5 @@
         </script>
       
       </body>
-      </html>
+    
 </DOCTYPE>
